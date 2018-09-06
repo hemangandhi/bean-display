@@ -188,6 +188,6 @@ function nearest (currentLocation, locations, maxNeighbors, accuracy) {
    return matching;
 }
 
-exports.encode = encode;
-exports.decode = decode;
-exports.nearest = nearest;
+window.encode = encode;
+window.decode = decode;
+window.nearest = nearest;

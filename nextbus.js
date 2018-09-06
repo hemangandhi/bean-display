@@ -1,4 +1,4 @@
-var rutgers = require('nextbusjs').client();
+var rutgers = client();
 
 function refreshData() {
   x = 30;  // 30 Seconds
